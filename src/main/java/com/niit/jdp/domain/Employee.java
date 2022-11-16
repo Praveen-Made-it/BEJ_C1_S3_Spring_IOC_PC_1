@@ -14,7 +14,17 @@ public class Employee {
     private String empoyeeName;
     private String employeeSalary;
 
-
     @Autowired
     private Department department;
+
+    public Employee() {
+
+    }
+
+    public Employee(int employeeId, String empoyeeName, String employeeSalary, Department department) {
+        this.employeeId = employeeId;
+        this.empoyeeName = empoyeeName;
+        this.employeeSalary = employeeSalary;
+        this.department = department;
+    }
 }
