@@ -27,4 +27,36 @@ public class Employee {
         this.employeeSalary = employeeSalary;
         this.department = department;
     }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public String getEmpoyeeName() {
+        return empoyeeName;
+    }
+
+    public void setEmpoyeeName(String empoyeeName) {
+        this.empoyeeName = empoyeeName;
+    }
+
+    public String getEmployeeSalary() {
+        return employeeSalary;
+    }
+
+    public void setEmployeeSalary(String employeeSalary) {
+        this.employeeSalary = employeeSalary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
 }
