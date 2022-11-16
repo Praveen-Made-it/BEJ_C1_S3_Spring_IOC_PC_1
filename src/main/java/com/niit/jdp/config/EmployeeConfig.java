@@ -7,6 +7,7 @@
 
 package com.niit.jdp.config;
 
+import com.niit.jdp.domain.Department;
 import com.niit.jdp.domain.Employee;
 import org.springframework.context.annotation.Bean;
 
@@ -21,6 +22,13 @@ public class EmployeeConfig {
         employee.setEmpoyeeName("Praveen");
         employee.setEmployeeSalary("5_00_000");
         return employee;
+    }
+
+    @Bean
+
+    // Creating a bean of type Department.
+    public Department getdepartment() {
+        return new Department(1, "Developement");
     }
 
 }
