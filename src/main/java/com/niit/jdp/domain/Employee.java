@@ -59,4 +59,14 @@ public class Employee {
     public void setDepartment(Department department) {
         this.department = department;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "employeeId=" + employeeId +
+                ", empoyeeName='" + empoyeeName + '\'' +
+                ", employeeSalary='" + employeeSalary + '\'' +
+                ", department=" + department +
+                '}';
+    }
 }
