@@ -10,4 +10,7 @@ package com.niit.jdp.domain;
 public class Department {
     private int departmentId;
     private String departmentName;
+
+    public Department() {
+    }
 }
